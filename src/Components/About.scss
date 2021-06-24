@@ -1,0 +1,14 @@
+.aboutWrapper {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  p {
+    width: 50%;
+    font-size: 24px;
+    font-weight: 500;
+  }
+}

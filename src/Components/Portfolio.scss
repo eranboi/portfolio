@@ -1,0 +1,50 @@
+@import "../main";
+
+.portfolio {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgba($color: $secondary-color, $alpha: 0.3);
+  border-radius: 5px;
+
+  & div.portfolio-item {
+    height: auto;
+    flex-basis: 25%;
+    margin: 10px 0 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & a {
+      min-height: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & p {
+      position: relative;
+      min-height: 50px;
+      text-align: center;
+    }
+
+    & .image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 150px;
+      height: auto;
+
+      transition: transform 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

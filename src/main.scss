@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+$primary-color: #264653;
+$secondary-color: #f4a261;
+
+$text-color: #2a9d8f;
+$header-color: #e76f51;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+html {
+  background-color: $primary-color;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: $text-color;
+
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+section {
+  min-height: calc(100vh - 100px);
+  & .header {
+    margin: 25px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: $header-color;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+    &.first {
+      margin-top: 150px;
+    }
+  }
+}
+
+.restlessLands {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & a {
+    width: 80%;
+  }
+  & img {
+    width: 100%;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+#contact {
+  & .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  & a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* a {
+  color: black;
+  text-decoration: underline;
+  color: $text-color;
+  transition: 0.4s ease;
+  &:hover {
+    cursor: pointer;
+    color: $header-color;
+  }
+} */
+
+.fab {
+  color: $text-color;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+#whatsapp-icon {
+  &:hover {
+    cursor: pointer;
+  }
+}
