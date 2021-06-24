@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.a9ba6326.chunk.css",
+    "main.js": "/portfolio-site/static/js/main.8c99ebb0.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.8c99ebb0.chunk.js.map",
+    "runtime-main.js": "/portfolio-site/static/js/runtime-main.acf2317e.js",
+    "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.acf2317e.js.map",
+    "static/js/2.11cd9ccc.chunk.js": "/portfolio-site/static/js/2.11cd9ccc.chunk.js",
+    "static/js/2.11cd9ccc.chunk.js.map": "/portfolio-site/static/js/2.11cd9ccc.chunk.js.map",
+    "static/js/3.98c8fd70.chunk.js": "/portfolio-site/static/js/3.98c8fd70.chunk.js",
+    "static/js/3.98c8fd70.chunk.js.map": "/portfolio-site/static/js/3.98c8fd70.chunk.js.map",
+    "index.html": "/portfolio-site/index.html",
+    "static/css/main.a9ba6326.chunk.css.map": "/portfolio-site/static/css/main.a9ba6326.chunk.css.map",
+    "static/js/2.11cd9ccc.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.11cd9ccc.chunk.js.LICENSE.txt",
+    "static/media/dulce-cultura.d82a8513.jpeg": "/portfolio-site/static/media/dulce-cultura.d82a8513.jpeg",
+    "static/media/interny-logo.de369a60.png": "/portfolio-site/static/media/interny-logo.de369a60.png",
+    "static/media/restlessLandsBanner.2da7e55b.png": "/portfolio-site/static/media/restlessLandsBanner.2da7e55b.png",
+    "static/media/waxys.a1aa72f8.png": "/portfolio-site/static/media/waxys.a1aa72f8.png",
+    "static/media/yuzdeyuzburger.d3b9dc46.png": "/portfolio-site/static/media/yuzdeyuzburger.d3b9dc46.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.acf2317e.js",
+    "static/js/2.11cd9ccc.chunk.js",
+    "static/css/main.a9ba6326.chunk.css",
+    "static/js/main.8c99ebb0.chunk.js"
+  ]
+}
